@@ -1,0 +1,33 @@
+Assignment
+Build an Expense Tracker Application.
+
+Features
+• Add Expense
+• Edit Expense
+• Delete Expense
+• View Expense History
+• Search Expenses
+• Filter by Category
+• Dashboard Showing Total Expenses, Monthly Expenses, and Recent Transactions
+Technical Requirements
+• React.js Frontend
+• Node.js Backend
+• REST APIs
+• Database Integration
+• Form Validation
+• Responsive UI
+Bonus
+• User Authentication
+• Expense Charts
+• Dark Mode
+
+Submission Deadline: 48 Hours
+
+
+TO BE WORKED ON
+Expence is not Editing
+Design Login / Register page
+Design Add Expence form, Button, Page
+
+
+
