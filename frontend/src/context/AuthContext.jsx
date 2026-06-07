@@ -21,7 +21,8 @@ export const AuthProvider = ({ children }) => {
     setLoading(true);
     setError(null);
     try {
-      const res = await axios.post('http://localhost:5000/api/auth/register', data);
+      // const res = await axios.post('http://localhost:5000/api/auth/register', data);
+      const res = await axios.post('https://expense-tracker-api-n7vc.onrender.com/api/auth/register', data);
       setToken(res.data.token);
       setUser(res.data.user);
       localStorage.setItem('token', res.data.token);
@@ -38,7 +39,8 @@ export const AuthProvider = ({ children }) => {
     setLoading(true);
     setError(null);
     try {
-      const res = await axios.post('http://localhost:5000/api/auth/login', data);
+      // const res = await axios.post('http://localhost:5000/api/auth/login', data);
+      const res = await axios.post('https://expense-tracker-api-n7vc.onrender.com/api/auth/login', data);
       setToken(res.data.token);
       setUser(res.data.user);
       localStorage.setItem('token', res.data.token);
@@ -66,3 +68,5 @@ export const AuthProvider = ({ children }) => {
 };
 
 export const useAuth = () => useContext(AuthContext);
+
+
